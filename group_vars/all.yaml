@@ -1,0 +1,8 @@
+INTERFACE:
+    LOOPBACK:
+        ID:
+        - "5"
+        IP:
+        - "5.5.5.5"
+        NETMASK:
+        - "255.255.255.255"
