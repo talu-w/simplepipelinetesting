@@ -1,12 +1,11 @@
 ---
 #Groups allow for easy VARs to be passed between devices that should share the same VAR. Same as Ansible
 
-us_east: 
+us_east:
+    hostname: "10.10.20.177"
     username: "cisco"
     password: "cisco"
 us_west:
+    hostname: "10.10.20.178"
     username: "cisco"
     password: "cisco"
-cisco_group:
-    data: #Use's the push_config to reference inventory for config buidling. "data" var must be used for user defined values
-        loopback_number: "loopback 83" #Creates loopback 83 within the push_config_runbook.py
